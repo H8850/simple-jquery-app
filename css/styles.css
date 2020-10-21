@@ -1,1 +1,77 @@
 /*css for to do application*/
+
+/*imports font*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+/*styles the body*/
+body {
+  font: normal normal 13px/16px "Open Sans", sans-serif;
+  background: #dfdfdf;
+}
+
+/*style the container*/
+.container{
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: white;
+  border-radius: 5px;
+}
+
+/*sets display for form element*/
+form {
+  display: inline-block;
+}
+
+/*styles the button*/
+#button {
+  display: inline-block;
+  background-color: #fc999b;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+/*styles the button durng hover state*/
+#button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+/*styles the list*/
+ol {
+  padding-left: 20px;
+}
+
+/*styles the list + list items*/
+ol li {
+  padding: 5px;
+  color: #000;
+}
+
+/*background color for even list items*/
+ol li:nth-child(even) {
+  background: #dfdfdf;
+}
+
+/*styles strike class*/
+.strike {
+  text-decoration: line-through;
+}
+
+/*styles list item for hover state*/
+li:hover {
+  cursor: pointer;
+}
+
+/*styles button to remove list items*/
+li > crossOutButton {
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+}
