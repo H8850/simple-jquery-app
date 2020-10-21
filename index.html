@@ -9,17 +9,40 @@
     <title>A Simple JQuery App</title>
   </head>
 
-
-
   <body>
+    <!--sets div for the app interface-->
+    <div class="container">
+
+      <!--sets app heading and sub heading with instructions-->
+      <h2>To Do List App</h2>
+      <p><em>Double click to mark an item off, click on "X" to delete item, and drag items to reorder</em></p>
+
+      <!--sets app input-->
+      <form name="toDoList">
+        <input type="text" name="ListItem" id="input"/>
+      </form>
+
+      <!--sets a button to add input-->
+      <div onclick="newItem()" id="button">Add</div>
+
+      <br/>
+
+      <!--creates list space for the recieved input-->
+      <ol id="list"></ol>
+
+    </div>
 
 
 
 
     <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+    integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
