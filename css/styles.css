@@ -6,7 +6,7 @@
 /*styles the body*/
 body {
   font: normal normal 13px/16px "Open Sans", sans-serif;
-  background: #dfdfdf;
+  background: lightBlue;
 }
 
 /*style the container*/
@@ -27,7 +27,7 @@ form {
 /*styles the button*/
 #button {
   display: inline-block;
-  background-color: #fc999b;
+  background-color: blue;
   color: #ffffff;
   border-radius: 5px;
   text-align: center;
@@ -65,6 +65,11 @@ ol li:nth-child(even) {
 /*styles list item for hover state*/
 li:hover {
   cursor: pointer;
+}
+
+/*class to delete items*/
+.delete {
+  display: none;
 }
 
 /*styles button to remove list items*/
